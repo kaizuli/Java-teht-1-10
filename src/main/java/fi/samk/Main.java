@@ -40,8 +40,11 @@ public class Main {
         Palindromiko palindromi = new Palindromiko();
         System.out.print("6. Onko palindromi: ");
         System.out.println(palindromi.isPalindrome("Aivot avaavat Ovia"));
-        System.out.print("");
-        System.out.print("");
+
+        Fibonacci fibo = new Fibonacci();
+        System.out.print("7. Fibonacci sarjan n:s luku: ");
+        System.out.println((fibo.countFibonacci(40)));
+
         System.out.print("");
         System.out.print("");
     }
