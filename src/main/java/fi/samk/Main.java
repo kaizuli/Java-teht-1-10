@@ -45,7 +45,16 @@ public class Main {
         System.out.print("7. Fibonacci sarjan n:s luku: ");
         System.out.println((fibo.countFibonacci(40)));
 
-        System.out.print("");
-        System.out.print("");
+        Alkuluvut alkkis = new Alkuluvut();
+        System.out.print("8. Alkulukulista: ");
+        System.out.println(alkkis.isPrime(10));
+
+        KelloMuunnin aika = new KelloMuunnin();
+        System.out.print("9. Sekunnit muunnettuna: ");
+        System.out.println(aika.convertSeconds(3661));
+
+        LukuHashmap map = new LukuHashmap();
+        System.out.print("10. Hashmap luvuille: ");
+        System.out.println(map.create_hashmap());
     }
 }
